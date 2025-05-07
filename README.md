@@ -10,11 +10,11 @@ Idealised model of the MABL with prescribed SST (& u, v?) variability at submeso
 - consider relative changes rather than absolute. Since, even in our LES, there is some uncertainty about how to best calculate turbulent fluxes, we will contrast cases with and without SST structure, but with same air-sea temp difference
 
 ## development
-Navid and Greg are currently working on _AquaSkyLES_ here: https://github.com/navidcy/AquaSkyLES.jl
+Oceananigans is a boussinesq ocean model. Navid and Greg are currently working on turning it into a simple boussinesq atmospheric model by moisture, which will affect buoyancy (& can condense, leading to latent heating ?). _AquaSkyLES_ lives here: https://github.com/navidcy/AquaSkyLES.jl
 
 Some of the development steps are:
 - Moist buoyancy: model carries humidity $q$ which affects buoyancy (implemented)
-- ...
+- Saturation / condensation / latent heating (in progress?)
 
 ## about this repo
-Trialing this repo as a project management tool. It's private at the moment. I envisage that we will invite the other collaborators when there's something for them to look at and, at some point, make it public. 
+Trialing this repo as a project management tool. It's private at the moment. I envisage that we will invite the other collaborators when there's something for them to look at and, at some point, make it public. You can find things we're working on under `issues`
