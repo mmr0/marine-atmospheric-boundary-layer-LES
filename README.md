@@ -14,7 +14,8 @@ Oceananigans is a boussinesq ocean model. Navid and Greg are currently working o
 
 Some of the development steps are:
 - Moist buoyancy: model carries humidity $q$ which affects buoyancy (implemented)
-- Saturation / condensation / latent heating (in progress?)
+- Saturation / condensation / latent heating (implemented - not merged. Looks good though?)
+- MOST flux parameterisation (not started - nicely written up in greg's notes tho!)
 
 ## about this repo
 Trialing this repo as a project management tool. It's private at the moment. I envisage that we will invite the other collaborators when there's something for them to look at and, at some point, make it public. You can find things we're working on under `issues`
